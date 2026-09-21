@@ -9,6 +9,9 @@
    - Feedback    → add :hover / :focus / :active states
    - C.R.A.P.    → check contrast, repetition, alignment, proximity
    ========================================================= */
+/* Lora and PT Sans are a good pair because Lora is a naturally bolder font, and is serif, while PT Sans is naturally thinner and easy to read while also being sans-serif*/
+
+
 
 * {
   box-sizing: border-box;
@@ -16,16 +19,39 @@
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 1.5;
   color: #222;
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;;
   align-items: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
   padding: 16px 24px;
   background: #eeeeee;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
 nav a {
