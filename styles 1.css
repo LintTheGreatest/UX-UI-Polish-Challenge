@@ -76,6 +76,69 @@ nav a {
   flex: 1;
 }
 
+/* Begin image and button states */
+
+.cat-img {
+  border-radius: 6px;
+}
+
+.cat-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.cat-img:active {
+  transform: scale(0.97);
+}
+
+.cat-img:focus-visible {
+  outline: 2px solid #858688;
+  outline-offset: 3px;
+}
+
+.microsoft-logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.microsoft-logo:active {
+  transform: scale(0.97);
+}
+
+.microsoft-logo:focus-visible {
+  outline: 2px solid #c8c9cc;
+  outline-offset: 1px;
+}
+
+.cta-btn {
+  background-color: #1F3864;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background-color: #14264a;
+}
+
+.cta-btn:active {
+  transform: scale(0.97);
+}
+
+.cta-btn:focus-visible {
+  outline: 2px solid #1F3864;
+  outline-offset: 3px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1F3864;
+  box-shadow: 0 0 0 3px rgba(31, 56, 100, 0.15);
+}
+
 .image-placeholder {
   background: #cccccc;
   height: 200px;
@@ -85,8 +148,11 @@ nav a {
   color: #666;
 }
 
+/* End image and button states */
+
 .meetings {
   padding: 40px 24px;
+  background-color: #faf8f8;
 }
 
 .testimonials {
@@ -123,4 +189,16 @@ footer {
   padding: 20px 24px;
   text-align: center;
   background: #eeeeee;
+}
+
+#abt-btn:hover {
+  color: #4167aa;
+}
+
+#meet-btn:hover {
+  color: #4167aa;
+}
+
+#join-btn:hover {
+  color: #4167aa;
 }
