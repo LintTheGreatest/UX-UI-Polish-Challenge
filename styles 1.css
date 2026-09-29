@@ -37,7 +37,7 @@ header {
   font-weight: bold;
   font-style: normal;
   padding: 16px 24px;
-  background: #eeeeee;
+  background: #585757;
 }
 
 h1 {
@@ -150,9 +150,23 @@ input:focus {
 
 /* End image and button states */
 
+#rsvpBtn {
+  font-family: "Open Sans", sans-serif;
+}
+
+.feedback-message {
+  font-family: "Open Sans", sans-serif;
+}
+
 .meetings {
   padding: 40px 24px;
   background-color: #faf8f8;
+}
+
+.rsvp {
+  padding: 40px 24px;
+  background-color: #fcfcfc;
+  font-family: "Open Sans", sans-serif;
 }
 
 .testimonials {
